@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JSON</title>
+    </head>
+    <body>
+        <script>
+            var tString = "hello";
+
+            var tString2 = 'hello';
+
+            var tNumber = 3;
+
+            var tBoolean = true;
+
+            var tNull = null;
+
+            var tUndefined = undefined;
+
+            var tArray = ['test', 30, [5,6,7]];
+
+            var tObjects = {
+                'first':'Laurence'
+            };
+
+            var tObjects2 = {
+                'first':'Laurence'
+            };
+
+            var tObjects3 = {
+                "first":'Laurence'
+            };
+
+            var tObjects4 = {
+            };
+
+            tObjects4.first = 'Laurence'; // adicionando valor a um objeto após o mesmo ser criado "vazio"
+
+            tObjects4['last'] = 'Svekis'; // outra forma de adicionar valor a um objeto após o mesmo ser criado "vazio"
+
+            var tObjects5 = {'myarray':tArray};
+            
+            tObjects5.myObj = tObjects4;
+        </script>
+
+    </body>
+</html>
